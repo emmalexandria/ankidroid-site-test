@@ -1,0 +1,19 @@
+nav {
+    padding: 1rem;
+    color: var(--md-sys-color-on-surface);
+}
+
+nav .logo {
+    height: 4rem;
+    width: auto;
+}
+
+nav .wordmark {
+    display: flex;
+    flex-direction: row;
+}
+
+nav .h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}

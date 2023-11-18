@@ -1,3 +1,5 @@
+@import url(./nav.css);
+
 .herotext {
     margin: 0;
     font-family: "Roboto";
@@ -54,7 +56,7 @@
     color: var(--md-sys-color-on-surface);
     text-decoration: none;
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     text-align: center;
     font-weight: 600;
     margin-left: 0.5rem;
