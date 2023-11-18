@@ -1,5 +1,8 @@
 nav {
-    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
     color: var(--md-sys-color-on-surface);
     font-family: "Roboto";
 }
@@ -12,10 +15,37 @@ nav .logo {
 nav .wordmark {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
 }
 
 nav .h1 {
-
     font-weight: bold;
     font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+.homelink {
+    
+}
+
+.navlink {
+    color: var(--md-sys-color-on-surface-variant);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.github {
+    font-weight: 400;
 }
