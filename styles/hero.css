@@ -1,0 +1,81 @@
+.herotext {
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.herodesc {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ratings-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ratings {
+    text-align: center;
+    font-family: "Roboto";
+    padding: 1rem;
+}
+
+.ratings h2 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.ratings span {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.ratings p {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.buttons {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.buttons a {
+    color: var(--md-sys-color-on-surface);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.buttons a.emphLink {
+    border-radius: 100px;
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary)
+}
+
+.buttons a.outlineLink {
+    color: var(--md-sys-color-primary);
+    border-radius: 100px;
+    border-color: var(--md-sys-color-outline);
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}

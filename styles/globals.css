@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/public/RobotoFlex-VariableFont.ttf);
+}
+
+
+h1 {
+    font-family: "Roboto", "sans-serif";
+}
+
+html {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
