@@ -65,16 +65,36 @@
 .buttons a.emphLink {
     border-radius: 100px;
     background-color: var(--md-sys-color-primary);
-    color: var(--md-sys-color-on-primary)
+    color: var(--md-sys-color-on-primary);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
+
+.buttons a.emphLink:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--md-sys-color-primary);
+    transform: translateY(-0.05em);
+}
+
+
 .buttons a.outlineLink {
+    box-sizing: border-box;
     color: var(--md-sys-color-primary);
     border-radius: 100px;
     border-color: var(--md-sys-color-outline);
     border-width: 1px;
     border-style: solid;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+
+.buttons a.outlineLink:hover{
+    border-color: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    background-color: var(--md-sys-color-primary-container);
+    transform: translateY(-0.05em);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--md-sys-color-primary-container);
+}
+
 
 
 main {
