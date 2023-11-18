@@ -36,7 +36,7 @@ nav ul li {
 }
 
 .homelink {
-    
+
 }
 
 .navlink {
@@ -46,6 +46,13 @@ nav ul li {
     text-decoration: none;
 }
 
+.navlink:hover {
+    color: var(--md-sys-color-primary)
+}
+
 .github {
     font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
