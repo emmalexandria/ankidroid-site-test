@@ -39,11 +39,18 @@ nav ul li {
 
 }
 
-.navlink {
-    color: var(--md-sys-color-on-surface-variant);
+li a {
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+}
+
+.navlink {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+.current {
+    color: var(--md-sys-color-primary)
 }
 
 .navlink:hover {
